@@ -8,9 +8,7 @@
 
 name: PublishMyPythonTo TestPyPi
 
-on:
-  release:
-    types: [published]
+on: workflow_dispatch
 
 permissions:
   contents: read
